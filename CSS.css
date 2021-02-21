@@ -1,0 +1,122 @@
+
+
+   p{
+
+         font-family: fantasy;
+         font-size: 5vh;
+         font-style: oblique;
+         padding: 5vh;
+         background-color:#FFF0F5;
+   }
+
+   
+   .flexbox-container{
+      height: 700px;
+      
+      flex-wrap: wrap;
+      display: flex;
+      justify-content: space-around; 
+      align-items:center; 
+      align-content: flex-end;
+      align-content: space-between;
+   }
+   
+   
+   
+   .flexbox-item {
+   
+      width: 400px;
+      margin:10px;
+     
+   
+   
+   }
+   
+   .flexbox-item-1{
+   
+      min-height: 100px;
+   
+   }
+   
+   .flexbox-item-1 img{
+   
+     width: 100%;
+   }
+   
+   .flexbox-item-2{
+   
+      min-height: 200px;
+   
+   }
+   
+   .flexbox-item-2 img{
+   
+      width: 100%;
+    }
+    
+   
+   .flexbox-item-3{
+   
+      min-height: 300px;
+   
+   }
+   
+   
+   .flexbox-item-3 img{
+   
+      width: 100%;
+    }
+    
+    
+
+    
+     .flexbox-socil-container{
+      display: flex;
+      justify-content: flex-start;
+      flex-wrap: wrap;
+      
+
+     }
+     
+     .flexbox-socil-container:hover{
+      
+      background-color: thistle;
+
+     }
+    .socil-link {
+ 
+      width: 40px;
+      margin:10px;
+   
+      
+    
+   }
+
+
+   
+.socil-link  img {
+   width: 100%;
+}
+
+div.socil-link.ig img{
+
+   width: 10vh ;
+}
+
+
+    @media only screen and (max-width: 700px) {
+      p {
+        font-size:   2vh;
+      }
+      .flexbox-socil-container{
+        
+         position: absolute;
+         bottom: -125vh;
+   
+        }
+        
+      }
+
+
+      
+    
